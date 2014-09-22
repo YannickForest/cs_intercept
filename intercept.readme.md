@@ -2,16 +2,16 @@
 
 ##Description##
 
-A simple PHP snippet that ensures that the main landing points to the staging instance while the product is under development.
-The snippet also ensure that the staging instance has access control (i.e., password-protected access).
+A simple PHP add-on that ensures that the main landing points to the staging instance while the product remains under development.
+The snippet also ensures that the staging instance has access control (i.e., password-protected access).
 The snippet has no effect on installations other than those living on the pre-defined domains.
-The code should be SVC and integration compatible.
+The code should be SVC- and integration- compatible.
 
 ##Flow##
 
 As long as the product is in "dev" mode, the main URL will be forwarded to the specified staging URL.
 Once the site goes live, the client will need to visit the staging URL explicitly in order to complete the acceptance stage
-(there's no logical way around this use case).
+(there's no logical way aroud this requirements in this use case).
 
 
 ##Usage##
@@ -45,6 +45,3 @@ Once the site goes live, the client will need to visit the staging URL explicitl
 ||                          ||
 ||                          ||
 </pre>
-
-
-
